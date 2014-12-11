@@ -63,5 +63,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         {
             t2.setText("My First Video");
         }
+        if(b2==v)
+        {
+            t3.setText("My IInd Video");
+        }
     }
 }
