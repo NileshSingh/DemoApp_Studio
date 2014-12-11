@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
     TextView t1,t2;
-    Button b1;
+    Button b1,b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         b1=(Button)findViewById(R.id.button);
         b1.setOnClickListener(this);
+
+        b2=(Button)findViewById(R.id.button2);
+        b2.setOnClickListener(this);
 
 
 
